@@ -15,3 +15,16 @@ let isLoggedIn = false
 // console.log(arr2)
 // arr = [5,5,5]
 // console.log(arr2, arr);
+
+//Stack (Primitive), Heap (Non-primitive)
+
+let user = {
+    email: "a@gmail.com",
+    name: "a",
+}
+
+
+let user2 = user
+
+user.name = "b"
+console.table([user, user2]);
